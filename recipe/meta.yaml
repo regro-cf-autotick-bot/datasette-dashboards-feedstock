@@ -1,5 +1,5 @@
 {% set name = "datasette-dashboards" %}
-{% set version = "0.6.2" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/datasette_dashboards-{{ version }}.tar.gz
-  sha256: c6f3e764182758a252b29ce444718fd15081481482a74f8e0c74313a4c9f824d
+  sha256: 41779fae786c2d0969cb3bebdab58e819def8ccb80c3519a8c8201a7caee9c21
 
 build:
   noarch: python
